@@ -1,0 +1,30 @@
+{
+  "name": "@gatewayapps/cradle-type-mappings",
+  "version": "1.0.0-alpha.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "npm test && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatewayapps/cradle-type-mappings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatewayapps/cradle-type-mappings/issues"
+  },
+  "homepage": "https://github.com/gatewayapps/cradle-type-mappings#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  },
+  "publishConfig": {
+    "tag": "next",
+    "access": "public"
+  },
+  "dependencies": {
+    "@gatewayapps/cradle": "^1.0.0-alpha.8"
+  }
+}
